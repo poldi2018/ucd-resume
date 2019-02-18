@@ -1,0 +1,144 @@
+.gridcolor    {
+    border: 0px solid beige;
+    background-color: #69686A;
+    
+}
+
+
+.logo    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    background: url(../assets/images/profile.jpg) no-repeat;
+    background-size: cover;
+
+
+}
+
+.banner    {
+    
+    padding: 20px;
+    
+}
+
+
+.bannercontent  {
+    width: 250px;
+    
+    
+}
+
+
+.linksfields
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+
+.form    {
+    padding: 30px;
+    
+}
+
+
+
+
+h1 {
+    font-family: Times;
+    background-color: beige;
+}
+    
+h2 {
+    font-family: Futura;
+    font-size: 22px;
+}
+
+
+.vhalign
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.footer    {
+    font-family: Futura;
+    font-size: 14px;
+    color: beige;
+}    
+
+.socialpanel    {
+    padding: 0px;
+    
+    
+}
+
+
+.socialicons    {
+    padding-right: 20px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.sociallinks    {
+    text-decoration: none;
+    
+}
+
+.span-heart    {
+    color: red;
+    transform: scale(1.0);
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse  {
+
+    0% { transform: scale(1.0); }
+    80% {transform: scale(1.2); }
+    90% {transform: scale(2.0); }
+    
+    
+}
+
+
+.home    {
+    background-color: #E67D25;
+    
+}
+
+.resume    {
+    background-color: #9957B3;
+    
+}
+
+.contact    {
+    background-color: #3798DE;
+    
+}
+
+
+.downloadCV    {
+    background-color: #525152;
+    
+}
+
+
+.test    {
+    background-color: yellow;
+}
