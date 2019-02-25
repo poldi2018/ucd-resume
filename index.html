@@ -2,280 +2,226 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-    <div class="container-fluid gridcolor">
+    <header class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">
-                <div class="logo"></div>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 vhalign banner">
-                <div>
-                    <div class="bannercontent">
-                        <h2><span>Peer Naupold</span></h2>
-                    </div>
-                    <div class="bannercontent">
-                        <h2><span>Full-Stack-Developer</span></h2>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        
-        
-        
-        
-        
-
-        <div class="row visible-xs">
-
-            <div class="col-xs-6 linksfields  home">
-                <div>
-                    <div class="vhalign">
-                        <span id="span-home" class="glyphicon glyphicon-glass"></span>
-                    </div>
-                    <div class="vhalign">
-                        <p>Home</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="col-xs-6 linksfields resume">
-                <div>
-                    <div class="vhalign">
-                        <span class="glyphicon glyphicon-glass"></span>
-                    </div>
-                    <div class="vhalign">
-                        <p>Resume</p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="row visible-xs">
-
-            <div class="col-xs-6 linksfields contact">
-                <div class="content-frame">
-                    <div class="vhalign">
-                        <span class="glyphicon glyphicon-glass"></span>
-                    </div>
-                    <div class="vhalign">
-                        <p>Contact</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-xs-6 linksfields downloadCV">
-                <div class="content-frame">
-                    <div class="vhalign">
-                        <span class="glyphicon glyphicon-glass"></span>
-                    </div>
-                    <div class="vhalign">
-                        <p>DownloadCV</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        
-        
-        <!-- 
-        
-        
-<div class="row visible-md">
-            <div class="col-md-4 logo"></div>
-            <div class="col-md-8">
+            <a href="index.html" alt="to index.html">
+                <div class="col-xs-12 col-md-4 logo"></div>
+            </a>
+            <div class="col-xs-12 col-md-8">
                 <div class="row">
-                    <div class="col-md-12 vhalign banner">
+                    <div class="col-xs-12 col-md-12 banner bg-banner vhalign">
                         <div>
-                            <div class="bannercontent">
-                            <h2><span>Peer Naupold</span></h2>
+                            <h1 class="name">Rosie Odenkirk</h1>
+                            <h2 class="title ">Full-Stack-Developer</h2>
                         </div>
-                        <div class="bannercontent">
-                            <h2><span>Full-Stack-Developer</span></h2>
-                        </div>
+
                     </div>
                 </div>
-           
-                <div class="row">
-                    
-                    
-                    <div class="col-md-3 linksfields home">
-                        <div>
-                            <div class="vhalign">
-                            <span id="span-home" class="glyphicon glyphicon-glass"></span>
-                            </div>
-                            <div class="vhalign">
-                                <p>Home</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-            
-                    
-                    
-                    <div class="col-md-3 linksfields resume">
-                        <div>
-                            <div class="vhalign">
-                                <span class="glyphicon glyphicon-glass"></span>
-                            </div>
-                            <div class="vhalign">
-                            <p>Resume</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    
-                    
-                    <div class="col-md-3 linksfields contact">
-                        <div>
-                            <div class="vhalign">
-                                <span class="glyphicon glyphicon-glass"></span>
-                            </div>
-                            <div class="vhalign">
-                                <p>Contact</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="col-md-3 linksfields downloadCV">
+                <div class="row bg-links-fields">
+
+                    <a href="index.html" alt="index.html">
+                        <div class="col-xs-6 col-md-3 links-fields bg-home vhalign hvr-sweep-to-bottom">
                             <div>
                                 <div class="vhalign">
-                                    <span class="glyphicon glyphicon-glass"></span>
+                                    <span id="active-page" class="fa fa-home big-links-fields"></span>
                                 </div>
                                 <div class="vhalign">
-                                    <p>DownloadCV</p>
+                                    <p>Home</p>
                                 </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="resume.html" alt="resume.html">
+                        <div class="col-xs-6 col-md-3 links-fields bg-resume vhalign hvr-sweep-to-bottom">
+                            <div>
+                                <div class="vhalign">
+                                    <span class="fa fa-graduation-cap big-links-fields"></span>
+                                </div>
+                                <div class="vhalign">
+                                    <p>Resume</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+
+                    <a href="contact.html" alt="contact.html">
+                        <div class="col-xs-6 col-md-3 links-fields bg-contact vhalign hvr-sweep-to-bottom">
+                            <div>
+                                <div class="vhalign">
+                                    <span class="fa fa-commenting-o big-links-fields"></span>
+                                </div>
+                                <div class="vhalign">
+                                    <p>Contact</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="../assets/images/resume.pdf" target="_blank" alt="resume to download">
+                        <div class="col-xs-6 col-md-3 links-fields bg-download vhalign hvr-sweep-to-bottom">
+
+
+                            <div>
+                                <div class="vhalign">
+                                    <span class="fa fa-download big-links-fields"></span>
+                                </div>
+                                <div class="vhalign">
+                                    <p>Download CV</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-fluid">
+        <div class="row row-table">
+            <div class="col-xs-12 col-md-4 bg-color-personal-info personal-info">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading">Personal Info</h3>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Name:</p>
+                    </div>
+                    <div class="value">
+                        <p>Rosie Odenkirk</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Address:</p>
+                    </div>
+                    <div class="value">
+                        <p>17 Riverdale, Catskills, NY USA</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Phone:</p>
+                    </div>
+                    <div class="value">
+                        <p>555 785 1037225</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Email:</p>
+                    </div>
+                    <div class="value">
+                        <p>rosie.odenkirk@hansaw.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column aboutme">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading">About me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2">
+                                <i class="three-reasons-icons fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                <p>
+                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2">
+                                <i class="three-reasons-icons fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <p>
+                                    I follow form as well as function. I know that the aesthetics of effectitive design combined with application speed, security and reliability combine t create a create user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2">
+                                <i class="three-reasons-icons fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                                <p>
+                                    I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
--->
-        
+    </section>
 
-        
-        
-        
-        
-        
-        
 
+
+
+    <footer class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 vhalign">
-                <h2>Any projects in mind?</h2>
-            </div>
+            <div class="col-xs-12 footer bg-footer">
 
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="form vhalign">
-
-                    <form class="form-inline">
-                        <div class="form-group">
-
-                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                        </div>
-
-                        <div class="form-group"><textarea class="form-control" rows="3" placeholder="Remarks"></textarea></div>
-                        <div class="vhalign">
-                            <button type="submit" class="btn btn-default">Send invitation</button>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-        <div class="row footer">
-            <div class="col-xs-12">
                 <h2>About</h2>
-                <p>Full Stack Developer. Coding with
-                    <span class="glyphicon glyphicon-heart-empty span-heart"></span>.
+
+
+                <p>Full Stack Developer. Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking. Coding with
+                    <span class="glyphicon glyphicon-heart-empty heart"></span>.
                 </p>
-                <h2>DOWNLOAD MY CV</h2>
-                <p>Need a printable version of my CV? Download it here.
-                    <a href="../assets/images/resume.pdf" target="_blank" alt="resume to download" class="cv">
-                    <span class="glyphicon glyphicon-save"></span></a>
-                </p>
+                <h2>Download my CV</h2>
+                <div class="downloadpanel">
+                    <p>Need a printable version of my CV? Download it here.</p>
+                    <div class="glyphicon-bgdisc vhalign">
+                        <a href="../assets/images/resume.pdf" target="_blank" alt="download CV">
+                                <span class="glyphicon glyphicon-save"></span>
+                             </a>
+                    </div>
+                </div>
+
+
                 <h2>My social</h2>
                 <ul class="socialpanel">
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-glass"></span></a></li>
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-music"></span></a></li>
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-search"></span></a></li>
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-heart"></span></a></li>
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-star"></span></a></li>
-                    <li class="socialicons"><a href="#" target="_blank" alt="" class="sociallinks"><span class="glyphicon glyphicon-star-empty"></span></a></li>
+                    <li class="socialicons"><a href="www.facebook.com" target="_blank" alt="facebook.com" class="sociallinks"><span class="fa fa-facebook vhalign"></span></a></li>
+                    <li class="socialicons"><a href="www.twitter.com" target="_blank" alt="twitter.com" class="sociallinks"><span class="fa fa-twitter vhalign"></span></a></li>
+                    <li class="socialicons"><a href="www.linkedin.com" target="_blank" alt="linkedin.com" class="sociallinks"><span class="fa fa-linkedin vhalign"></span></a></li>
+                    <li class="socialicons"><a href="www.pinterest.com" target="_blank" alt="pinterest.com" class="sociallinks"><span class="fa fa-pinterest vhalign"></span></a></li>
+                    <li class="socialicons"><a href="www.instagram.com" target="_blank" alt="instagram.com" class="sociallinks"><span class="fa fa-instagram vhalign"></span></a></li>
+                    <li class="socialicons"><a href="www.youtube.com" target="_blank" alt="youtube.com" class="sociallinks"><span class="fa fa-youtube vhalign"></span></a></li>
                 </ul>
             </div>
         </div>
-    </div>
+    </footer>
 
-
-
-
-
-
-    <!-- Stack the columns on mobile by making one full-width and the other half-width 
-        <div class="row">
-          <div class="col-xs-12 col-md-8 gridcolor">.col-xs-12 .col-md-8</div>
-          <div class="col-xs-6 col-md-4 gridcolor">.col-xs-6 .col-md-4</div>
-        </div>
-
-<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop 
-        <div class="row">
-          <div class="col-xs-6 col-md-4 gridcolor">.col-xs-6 .col-md-4</div>
-          <div class="col-xs-6 col-md-4 gridcolor">.col-xs-6 .col-md-4</div>
-          <div class="col-xs-6 col-md-4 gridcolor">.col-xs-6 .col-md-4</div>
-        </div>
-        -->
-
-
-
-
-
+    <!--  -->
 
     <!-- scripts jquery and js file -->
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 
 </body>
 
