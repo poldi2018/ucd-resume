@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
 /* ----------------------------------------------- header */
 
 .logo {
@@ -22,7 +20,6 @@
 .testframe {
     border: 2px solid red;
 }
-
 
 /* -------------------------------------banner */
 
@@ -55,7 +52,7 @@
     color: lightgreen;
 }
 
-/* --------------------------------------------------- footer */
+/* ---------------------------------------- footer */
 
 .footer {
     padding-left: 10px;
@@ -64,20 +61,22 @@
 
 .socialpanel {
     padding: 0px;
-
-
 }
 
 .socialicons {
     padding-right: 20px;
     list-style: none;
     display: inline-block;
-
 }
 
+.socialicons a:hover,
+.socialicons a:visited, 
+.socialicons a:link, 
+.socialicons a:active {
+    text-decoration: none;
+}
 
-
-.sociallinks span {
+.sociallinks i {
 
     width: 30px;
     height: 30px;
@@ -86,21 +85,717 @@
     transition: color 0.35s ease-in-out;
 }
 
-
-.sociallinks span:hover {
+.sociallinks i:hover {
 
     color: lightgreen;
     text-decoration: none;
-
-
 }
-
-
 
 .heart {
     color: red;
     transform: scale(1.0);
     animation: pulse 2s infinite ease-in-out;
+}
+
+/* ----------------------------------------------- color definitions */
+
+
+.bgr-overlay {
+    background: -ms-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
+    background: -webkit-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
+    background: -moz-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
+    background: -o-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
+    background: linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    -o-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+
+}
+
+
+.bg-color-three-reasons,
+.bg-section-cat {
+    background-image: url("../images/profile.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(250, 250, 250, 0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+    
+}
+
+.bg-home {
+    background-color: #E67D25;
+}
+
+.bg-resume {
+    background-color: #9957B3;
+}
+
+.bg-contact {
+    background-color: #3798DE;
+}
+
+
+.bg-download {
+    background-color: #525152;
+}
+
+.bg-banner,
+.bg-footer {
+    background-color: #69686A;
+}
+
+.bg-section {
+    background-color: beige;
+}
+
+
+.bg-color-personal-info {
+    background-color: lightgrey;
+}
+
+.sociallinks i,
+.glyphicon-save {
+    text-decoration: none;
+    color: green;
+}
+
+.links-fields span {
+    color: #00bfff;
+    
+    
+}
+
+
+.glyphicon-save {
+    color: green;
+    transition: color .35s ease-in-out;
+}
+
+.glyphicon-save:hover {
+    color: lightgreen;
+}
+
+
+.three-reasons-icons {
+    color: red;
+    padding-top: 12px;
+}
+
+.bg-links-fields {
+    background-color: #69686A;
+}
+
+
+.glyphicon-bgdisc {
+    position: relative;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+}
+
+.glyphicon-cog {
+    font-size: 20em;
+    animation: colorpulse 10.0s ease-in-out alternate infinite;
+}
+
+
+
+/*--------------------------------------------formatting*/
+
+.vhalign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.progress-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 98%;
+}
+
+.progressbar-container    {
+    display: flex;
+    justify-content: center;
+}
+
+
+.turn {
+    
+    animation: spin 100s linear infinite;
+   
+}
+
+
+.myskills-section    {
+    
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+
+.bigwheel-section {
+    
+   height: 400px; 
+    
+}
+
+
+
+
+form {
+    width: 80%;
+    
+}
+
+
+.center-form    {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contact-section {
+    
+    padding-top: 0px;
+    padding-bottom: 83px;    
+}
+
+
+.downloadpanel {
+    display: flex;
+
+}
+
+
+#active-page {
+    color: red;
+
+}
+
+/* -------------------------------------definitions of font and text attributes */
+
+.name {
+
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    color: beige;
+
+}
+
+.title {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: beige;
+
+}
+
+.footer p {
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+    color: beige;
+}
+
+
+.footer h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: beige;
+}
+
+.big-links-fields {
+    font-size: 2.5em;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.personal-info-item {
+    font-family: "Exo", sans-serif;
+    padding-bottom: 20px;
+
+}
+
+
+.aboutme    {
+    
+    padding: 21px;
+}
+
+.three-reasons-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: darkred;
+
+}
+
+.section-heading,
+.history-heading {
+    font-family: "Exo", sans-serif;
+}
+
+
+/*--------------------------------------------Work History*/
+
+
+.history-items {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-item::after {
+    width: 13px;
+    height: 13px;
+    display: block;
+    top: 5em;
+    position: absolute;
+    left: -7px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+
+/* ------------------------------------- adaptation properties hoover.css */
+
+.hvr-sweep-to-bottom:before {
+
+    background-color: rgba(250, 250, 250, 0.1);
+    border-radius: 10px;
+
+}
+
+/* ------------------------------------- breakpoints */
+
+
+
+/* ------------------------------------- animations */
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+@keyframes colorpulse {
+
+    0% {
+        color: lightgreen;
+    }
+    40% {
+        filter: blur(0px);
+    }
+    41% {
+        filter: blur(2px);
+    }
+    42% {
+        filter: blur(4px);
+    }
+    43% {
+        filter: blur(2px);
+    }
+    44% {
+        filter: blur(0px);
+    }
+    45% {
+        filter: blur(0px);
+    }
+    46% {
+        filter: blur(2px);
+    }
+    47% {
+        filter: blur(4px);
+    }
+    48% {
+        filter: blur(2px);
+    }
+    49% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(0px);
+    }
+    51% {
+        filter: blur(2px);
+    }
+    52% {
+        filter: blur(4px);
+    }
+    53% {
+        filter: blur(2px);
+    }
+
+    54% {
+        filter: blur(0px);
+    }
+    55% {
+        filter: blur(0px);
+    }
+    56% {
+        filter: blur(2px);
+    }
+    57% {
+        filter: blur(4px);
+    }
+    58% {
+        filter: blur(2px);
+    }
+    59% {
+        filter: blur(0px);
+    }
+    100% {
+        color: lightblue;
+    }
+}
+
+@-webkit-keyframes colorpulse {
+
+    0% {
+        color: lightgreen;
+    }
+    40% {
+        filter: blur(0px);
+    }
+    41% {
+        filter: blur(2px);
+    }
+    42% {
+        filter: blur(4px);
+    }
+    43% {
+        filter: blur(2px);
+    }
+    44% {
+        filter: blur(0px);
+    }
+    45% {
+        filter: blur(0px);
+    }
+    46% {
+        filter: blur(2px);
+    }
+    47% {
+        filter: blur(4px);
+    }
+    48% {
+        filter: blur(2px);
+    }
+    49% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(0px);
+    }
+    51% {
+        filter: blur(2px);
+    }
+    52% {
+        filter: blur(4px);
+    }
+    53% {
+        filter: blur(2px);
+    }
+
+    54% {
+        filter: blur(0px);
+    }
+    55% {
+        filter: blur(0px);
+    }
+    56% {
+        filter: blur(2px);
+    }
+    57% {
+        filter: blur(4px);
+    }
+    58% {
+        filter: blur(2px);
+    }
+    59% {
+        filter: blur(0px);
+    }
+    100% {
+        color: lightblue;
+    }
+}
+
+@-moz-keyframes colorpulse {
+
+    0% {
+        color: lightgreen;
+    }
+    40% {
+        filter: blur(0px);
+    }
+    41% {
+        filter: blur(2px);
+    }
+    42% {
+        filter: blur(4px);
+    }
+    43% {
+        filter: blur(2px);
+    }
+    44% {
+        filter: blur(0px);
+    }
+    45% {
+        filter: blur(0px);
+    }
+    46% {
+        filter: blur(2px);
+    }
+    47% {
+        filter: blur(4px);
+    }
+    48% {
+        filter: blur(2px);
+    }
+    49% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(0px);
+    }
+    51% {
+        filter: blur(2px);
+    }
+    52% {
+        filter: blur(4px);
+    }
+    53% {
+        filter: blur(2px);
+    }
+
+    54% {
+        filter: blur(0px);
+    }
+    55% {
+        filter: blur(0px);
+    }
+    56% {
+        filter: blur(2px);
+    }
+    57% {
+        filter: blur(4px);
+    }
+    58% {
+        filter: blur(2px);
+    }
+    59% {
+        filter: blur(0px);
+    }
+    100% {
+        color: lightblue;
+    }
+}
+
+@-o-keyframes colorpulse {
+
+    0% {
+        color: lightgreen;
+    }
+    40% {
+        filter: blur(0px);
+    }
+    41% {
+        filter: blur(2px);
+    }
+    42% {
+        filter: blur(4px);
+    }
+    43% {
+        filter: blur(2px);
+    }
+    44% {
+        filter: blur(0px);
+    }
+    45% {
+        filter: blur(0px);
+    }
+    46% {
+        filter: blur(2px);
+    }
+    47% {
+        filter: blur(4px);
+    }
+    48% {
+        filter: blur(2px);
+    }
+    49% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(0px);
+    }
+    51% {
+        filter: blur(2px);
+    }
+    52% {
+        filter: blur(4px);
+    }
+    53% {
+        filter: blur(2px);
+    }
+
+    54% {
+        filter: blur(0px);
+    }
+    55% {
+        filter: blur(0px);
+    }
+    56% {
+        filter: blur(2px);
+    }
+    57% {
+        filter: blur(4px);
+    }
+    58% {
+        filter: blur(2px);
+    }
+    59% {
+        filter: blur(0px);
+    }
+    100% {
+        color: lightblue;
+    }
+}
+
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+@-webkit-keyframes spin {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+@-moz-keyframes spin {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+@-o-keyframes spin {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
 }
 
 @keyframes pulse {
@@ -159,457 +854,7 @@
     90% {
         transform: scale(2.0);
     }
-
-
 }
 
 
 
-/* ----------------------------------------------- color definitions */
-
-.bg-color-three-reasons,
-.bg-section-cat {
-    background-image: url("../images/profile.jpg");
-    background-repeat: no-repeat;
-    background-color: rgba(250, 250, 250, 0.8);
-    background-blend-mode: overlay;
-    background-size: cover;
-    padding-bottom: 20px;
-    min-height: 380px;
-}
-
-.bg-home {
-    background-color: #E67D25;
-
-}
-
-.bg-resume {
-    background-color: #9957B3;
-
-}
-
-.bg-contact {
-    background-color: #3798DE;
-
-}
-
-
-.bg-download {
-    background-color: #525152;
-
-}
-
-.bg-banner,
-.bg-footer {
-    background-color: #69686A;
-}
-
-.bg-section {
-    background-color: beige;
-
-}
-
-
-.bg-color-personal-info {
-    background-color: lightgrey;
-}
-
-.sociallinks span,
-.links-fields span,
-.glyphicon-save {
-    text-decoration: none;
-    color: green;
-
-}
-
-
-.glyphicon-save {
-    color: green;
-    transition: color .35s ease-in-out;
-
-}
-
-.glyphicon-save:hover {
-    color: lightgreen;
-
-}
-
-
-.three-reasons-icons {
-    color: red;
-    padding-top: 12px;
-}
-
-.bg-links-fields {
-    background-color: #69686A;
-}
-
-
-
-
-.glyphicon-bgdisc {
-    position: relative;
-    left: 5px;
-    width: 30px;
-    height: 30px;
-    background-color: lightgrey;
-    border-radius: 50%;
-
-
-}
-
-.glyphicon-cog {
-
-    font-size: 20em;
-    animation: colorpulse 10.0s ease-in-out alternate infinite;
-
-}
-
-.bigwheel-section {}
-
-
-.turn    {
-    animation: spin 100s linear infinite;
-}
-
-
-@keyframes spin {
-
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-
-}
-
-
-    @keyframes colorpulse {
-
-        0% {
-            color: lightgreen;
-        }
-        40% {
-            filter: blur(0px);
-        }
-        41% {
-            filter: blur(2px);
-        }
-        42% {
-            filter: blur(4px);
-        }
-        43% {
-            filter: blur(2px);
-        }
-        44% {
-            filter: blur(0px);
-        }
-        45% {
-            filter: blur(0px);
-        }
-        46% {
-            filter: blur(2px);
-        }
-        47% {
-            filter: blur(4px);
-        }
-        48% {
-            filter: blur(2px);
-        }
-        49% {
-            filter: blur(0px);
-        }
-        50% {
-            filter: blur(0px);
-        }
-        51% {
-            filter: blur(2px);
-        }
-        52% {
-            filter: blur(4px);
-        }
-        53% {
-            filter: blur(2px);
-        }
-
-        54% {
-            filter: blur(0px);
-        }
-        55% {
-            filter: blur(0px);
-        }
-        56% {
-            filter: blur(2px);
-        }
-        57% {
-            filter: blur(4px);
-        }
-        58% {
-            filter: blur(2px);
-        }
-        59% {
-            filter: blur(0px);
-        }
-        100% {
-            color: lightblue;
-        }
-    }
-
-    .aboutme {
-        min-height: 360px;
-    }
-
-.min-height    {
-     min-height: 360px;
-}
-
-
-    .personal-info {
-
-        margin-bottom: 0px;
-        min-height: 360px;
-
-    }
-
-    .contact-section {
-        min-height: 200px;
-        padding-bottom: 20px;
-    }
-
-
-    .downloadpanel {
-        display: flex;
-
-    }
-
-
-    #active-page {
-        color: red;
-
-
-
-    }
-
-
-
-    /* -------------------------------------definitions of font and text attributes */
-    .name {
-
-        font-family: "Exo", sans-serif;
-        font-weight: 200;
-        color: beige;
-
-    }
-
-    .title {
-
-        font-family: "Roboto", sans-serif;
-        font-weight: 200;
-        color: beige;
-
-    }
-
-    .footer p {
-        font-family: "Exo", sans-serif;
-        font-size: 14px;
-        color: beige;
-    }
-
-
-    .footer h2 {
-
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
-        color: beige;
-    }
-
-.big-links-fields    {
-    font-size: 2.5em;
-}
-
-
-
-    .uppercase {
-        text-transform: uppercase;
-    }
-
-    .personal-info-item {
-        font-family: "Exo", sans-serif;
-
-    }
-
-
-    .three-reasons-heading {
-        font-family: "Exo", sans-serif;
-        font-weight: 300;
-        color: darkred;
-
-    }
-
-    .section-heading,
-    .history-heading {
-        font-family: "Exo", sans-serif;
-    }
-
-
-    .history-items {
-        font-family: "Roboto", sans-serif;
-        padding: 0;
-        margin-bottom: 30px;
-    }
-
-    .timeline-item {
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .vhalign {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    /*--------------------------------------------Work History*/
-    .timeline-item {
-        padding: 4em 2em 0em 2em;
-        position: relative;
-        color: #fafafa;
-        border-left: 1px solid;
-    }
-
-    .timeline-item p {
-        padding: 0;
-        margin: 0;
-    }
-
-    .timeline-item::before {
-        content: attr(dates);
-        position: absolute;
-        left: 2.5em;
-        top: 3em;
-        display: block;
-        font-family: "Exo", sans-serif;
-        font-weight: 500;
-        font-size: .8em;
-        padding: 0;
-        margin: 0;
-    }
-
-    .timeline-item::after {
-        width: 13px;
-        height: 13px;
-        display: block;
-        top: 5em;
-        position: absolute;
-        left: -7px;
-        border-radius: 12px;
-        content: '';
-        background: #fafafa;
-    }
-
-
-
-
-
-    /* ------------------------------------- adaptation properties hoover.css */
-    .hvr-sweep-to-bottom:before {
-
-        background-color: rgba(250, 250, 250, 0.1);
-        border-radius: 10px;
-
-    }
-
-
-    .progress-section {
-        width: 98%;
-    }
-
-    .bgr-overlay {
-        min-height: 360px;
-        background: -ms-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
-        background: -webkit-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
-        background: -moz-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
-        background: -o-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
-        background: linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
-
-        background-size: 400% 400%;
-        -webkit-animation: Gradient 15s ease infinite;
-        -moz-animation: Gradient 15s ease infinite;
-        -o-animation: Gradient 15s ease infinite;
-        animation: Gradient 15s ease infinite;
-
-
-
-
-
-
-    }
-
-    @-webkit-keyframes Gradient {
-        0% {
-            background-position: 0% 50%
-        }
-        50% {
-            background-position: 100% 50%
-        }
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @-moz-keyframes Gradient {
-        0% {
-            background-position: 0% 50%
-        }
-        50% {
-            background-position: 100% 50%
-        }
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @-o-keyframes Gradient {
-        0% {
-            background-position: 0% 50%
-        }
-        50% {
-            background-position: 100% 50%
-        }
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @keyframes Gradient {
-        0% {
-            background-position: 0% 50%
-        }
-        50% {
-            background-position: 100% 50%
-        }
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-
-
-
-
-    /* ------------------------------------- breakpoints */
-    @media(min-width: 992px) {
-
-
-        .contact-section {
-            min-height: 200px;
-            width: 70%;
-            padding-bottom: 60px;
-        }
-
-
-    }
