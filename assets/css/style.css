@@ -33,22 +33,20 @@
     padding: 0px;
     border-radius: 10px;
     min-height: 120px;
-
 }
 
 .links-fields p {
     color: beige;
     margin-top: 0px;
-
 }
 
 
-.links-fields span {
+.links-fields i {
     transition: color .5s ease-in-out;
 }
 
 
-.links-fields:hover span {
+.links-fields:hover i {
     color: lightgreen;
 }
 
@@ -57,7 +55,6 @@
 .footer {
     padding-left: 10px;
 }
-
 
 .socialpanel {
     padding: 0px;
@@ -99,7 +96,6 @@
 
 /* ----------------------------------------------- color definitions */
 
-
 .bgr-overlay {
     background: -ms-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
     background: -webkit-linear-gradient(-45deg, rgba(0, 255, 0, 1) 0.14%, rgba(0, 208, 255, 1) 23.29%, rgba(35, 166, 213, 1) 55.16%, rgba(35, 213, 171, 1) 99.61%);
@@ -111,9 +107,7 @@
     -moz-animation: Gradient 15s ease infinite;
     -o-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
-
 }
-
 
 .bg-color-three-reasons,
 .bg-section-cat {
@@ -122,8 +116,6 @@
     background-color: rgba(250, 250, 250, 0.8);
     background-blend-mode: overlay;
     background-size: cover;
-    
-    
 }
 
 .bg-home {
@@ -138,7 +130,6 @@
     background-color: #3798DE;
 }
 
-
 .bg-download {
     background-color: #525152;
 }
@@ -152,7 +143,6 @@
     background-color: beige;
 }
 
-
 .bg-color-personal-info {
     background-color: lightgrey;
 }
@@ -163,12 +153,9 @@
     color: green;
 }
 
-.links-fields span {
+.links-fields i {
     color: #00bfff;
-    
-    
 }
-
 
 .glyphicon-save {
     color: green;
@@ -179,7 +166,6 @@
     color: lightgreen;
 }
 
-
 .three-reasons-icons {
     color: red;
     padding-top: 12px;
@@ -188,7 +174,6 @@
 .bg-links-fields {
     background-color: #69686A;
 }
-
 
 .glyphicon-bgdisc {
     position: relative;
@@ -204,18 +189,13 @@
     animation: colorpulse 10.0s ease-in-out alternate infinite;
 }
 
-
-
 /*--------------------------------------------formatting*/
 
 .vhalign {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-
-
 
 .progress-section {
     padding-top: 45px;
@@ -228,79 +208,55 @@
     justify-content: center;
 }
 
-
 .turn {
-    
     animation: spin 100s linear infinite;
-   
 }
 
-
 .myskills-section    {
-    
     padding-top: 45px;
     padding-bottom: 45px;
-    
 }
 
 .bigwheel-section {
-    
    height: 400px; 
-    
 }
-
-
-
 
 form {
     width: 80%;
-    
 }
-
 
 .center-form    {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-
 .contact-section {
-    
     padding-top: 0px;
     padding-bottom: 83px;    
 }
 
-
 .downloadpanel {
     display: flex;
-
 }
-
 
 #active-page {
     color: red;
-
 }
 
 /* -------------------------------------definitions of font and text attributes */
 
 .name {
-
     font-family: "Exo", sans-serif;
     font-weight: 200;
     color: beige;
-
 }
 
 .title {
-
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     color: beige;
-
 }
 
 .footer p {
@@ -309,9 +265,7 @@ form {
     color: beige;
 }
 
-
 .footer h2 {
-
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: beige;
@@ -321,7 +275,6 @@ form {
     font-size: 2.5em;
 }
 
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -329,12 +282,9 @@ form {
 .personal-info-item {
     font-family: "Exo", sans-serif;
     padding-bottom: 20px;
-
 }
 
-
 .aboutme    {
-    
     padding: 21px;
 }
 
@@ -342,7 +292,6 @@ form {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: darkred;
-
 }
 
 .section-heading,
@@ -350,9 +299,7 @@ form {
     font-family: "Exo", sans-serif;
 }
 
-
 /*--------------------------------------------Work History*/
-
 
 .history-items {
     font-family: "Roboto", sans-serif;
@@ -385,7 +332,6 @@ form {
     margin: 0;
 }
 
-
 .timeline-item::after {
     width: 13px;
     height: 13px;
@@ -398,11 +344,9 @@ form {
     background: #fafafa;
 }
 
-
 /* ------------------------------------- adaptation properties hoover.css */
 
 .hvr-sweep-to-bottom:before {
-
     background-color: rgba(250, 250, 250, 0.1);
     border-radius: 10px;
 
@@ -461,7 +405,6 @@ form {
         background-position: 0% 50%
     }
 }
-
 
 @keyframes colorpulse {
 
@@ -747,7 +690,6 @@ form {
     }
 }
 
-
 @keyframes spin {
 
     0% {
@@ -757,7 +699,6 @@ form {
     100% {
         transform: rotate(360deg);
     }
-
 }
 
 @-webkit-keyframes spin {
@@ -769,9 +710,7 @@ form {
     100% {
         transform: rotate(360deg);
     }
-
 }
-
 
 @-moz-keyframes spin {
 
@@ -782,7 +721,6 @@ form {
     100% {
         transform: rotate(360deg);
     }
-
 }
 
 
@@ -795,7 +733,6 @@ form {
     100% {
         transform: rotate(360deg);
     }
-
 }
 
 @keyframes pulse {
@@ -809,8 +746,6 @@ form {
     90% {
         transform: scale(2.0);
     }
-
-
 }
 
 @-webkit-keyframes pulse {
@@ -824,8 +759,6 @@ form {
     90% {
         transform: scale(2.0);
     }
-
-
 }
 
 @-moz-keyframes pulse {
@@ -839,8 +772,6 @@ form {
     90% {
         transform: scale(2.0);
     }
-
-
 }
 
 @-o-keyframes pulse {
