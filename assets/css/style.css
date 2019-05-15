@@ -50,8 +50,9 @@
 .links-fields:hover i {
     color: lightgreen;
 }
+
 .links-fields-font {
-    font-size: 1.5em;
+    font-size: 2.0em;
 }
 
 /* ---------------------------------------- footer */
@@ -79,8 +80,8 @@
 
 .sociallinks i {
 
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background-color: lightgrey;
     border-radius: 50%;
     transition: color 0.35s ease-in-out;
@@ -155,6 +156,12 @@
 .glyphicon-save {
     text-decoration: none;
     color: green;
+    font-size: 24px;
+}
+
+.sociallinks i {
+     font-size: 28px;
+    
 }
 
 .links-fields i {
@@ -250,6 +257,9 @@ form {
     color: red;
 }
 
+p {
+   font-size: 21px; 
+}
 
 /* -------------------------------------definitions of font and text attributes */
 
@@ -257,7 +267,7 @@ form {
     font-family: "Exo", sans-serif;
     font-weight: 200;
     color: beige;
-    font-size: 3.5em;
+    font-size: 5.5em;
 
 }
 
@@ -265,25 +275,25 @@ form {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     color: beige;
-    font-size: 3.5em;
+    font-size: 5.5em;
 
 
 }
 
 .footer p {
     font-family: "Exo", sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     color: beige;
 }
 
 .footer h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     color: beige;
 }
 
 .big-links-fields {
-    font-size: 2.5em;
+    font-size: 4.0em;
 }
 
 .uppercase {
@@ -368,20 +378,22 @@ form {
 @media screen and (min-width: 1200px) and (orientation:landscape) {
 
     .logo {
-    background: url("../images/rosie.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    height: 360px;
-    border: 0px solid grey;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-    
-    
+        background: url("../images/rosie.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+        height: 360px;
+        border: 0px solid grey;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+    }
+
+    .links-fields-font {
+        font-size: 1.5em;
+    }
 }
 
 
@@ -752,7 +764,6 @@ form {
         transform: rotate(360deg);
     }
 }
-
 
 @-o-keyframes spin {
 
