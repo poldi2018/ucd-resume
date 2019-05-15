@@ -7,9 +7,10 @@
 .logo {
     background: url("../images/rosie.png");
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    min-height: 360px;
+    /*min-height: 360px; */
+    height: 100vw;
     border: 0px solid grey;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -67,8 +68,8 @@
 }
 
 .socialicons a:hover,
-.socialicons a:visited, 
-.socialicons a:link, 
+.socialicons a:visited,
+.socialicons a:link,
 .socialicons a:active {
     text-decoration: none;
 }
@@ -169,6 +170,7 @@
 .three-reasons-icons {
     color: red;
     padding-top: 12px;
+    font-size: 2.5em;
 }
 
 .bg-links-fields {
@@ -203,7 +205,7 @@
     width: 98%;
 }
 
-.progressbar-container    {
+.progressbar-container {
     display: flex;
     justify-content: center;
 }
@@ -212,20 +214,20 @@
     animation: spin 100s linear infinite;
 }
 
-.myskills-section    {
+.myskills-section {
     padding-top: 45px;
     padding-bottom: 45px;
 }
 
 .bigwheel-section {
-   height: 400px; 
+    height: 400px;
 }
 
 form {
     width: 80%;
 }
 
-.center-form    {
+.center-form {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -234,7 +236,7 @@ form {
 
 .contact-section {
     padding-top: 0px;
-    padding-bottom: 83px;    
+    padding-bottom: 83px;
 }
 
 .downloadpanel {
@@ -245,18 +247,24 @@ form {
     color: red;
 }
 
+
 /* -------------------------------------definitions of font and text attributes */
 
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 200;
     color: beige;
+    font-size: 3.5em;
+
 }
 
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     color: beige;
+    font-size: 3.5em;
+
+
 }
 
 .footer p {
@@ -284,7 +292,7 @@ form {
     padding-bottom: 20px;
 }
 
-.aboutme    {
+.aboutme {
     padding: 21px;
 }
 
@@ -353,6 +361,25 @@ form {
 }
 
 /* ------------------------------------- breakpoints */
+
+@media screen and (min-width: 1200px) and (orientation:landscape) {
+
+    .logo {
+    background: url("../images/rosie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    height: 360px;
+    border: 0px solid grey;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+    
+    
+}
 
 
 
@@ -786,6 +813,3 @@ form {
         transform: scale(2.0);
     }
 }
-
-
-
