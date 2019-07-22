@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/github-styles.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-information.js"></script>
+    <title>Rosie</title>
+</head>
+
+<body>
+        <header class="container-fluid">
+                <div class="row">
+                    <a href="index.html" alt="to index.html">
+                        <div class="col-xs-12 col-md-4"><div class="logo"></div></div>
+                    </a>
+                    <div class="col-xs-12 col-md-8">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 banner bg-banner vhalign">
+                                <div>
+                                    <h1 class="name">Rosie Odenkirk</h1>
+                                    <h2 class="title ">Full-Stack-Developer</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bg-links-fields">
+                            <a href="index.html" alt="index.html">
+                                <div class="col-xs-6 col-md-2 links-fields bg-home vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i class="fa fa-home big-links-fields"></i>
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Home</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+        
+                            <a href="resume.html" alt="resume.html">
+                                <div class="col-xs-6 col-md-2 links-fields bg-resume vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i class="fa fa-graduation-cap big-links-fields"></i>
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Resume</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+        
+                            <a href="contact.html" alt="contact.html">
+                                <div class="col-xs-6 col-md-2 links-fields bg-contact vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i class="fa fa-commenting-o big-links-fields"></i>
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Contact</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+        
+                            <a href="interests.html" alt="interests.html">
+                                <div class="col-xs-6 col-md-2 links-fields bg-interests vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i class="fa fa-users big-links-fields"></i>
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Interests</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+        
+        
+                            <a href="github.html" alt="github.html">
+                                <div class="col-xs-6 col-md-2 links-fields bg-github vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i id="active-page" class="fa fa-github big-links-fields"></i>
+        
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Github</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+        
+                            <a href="../assets/images/resume.pdf" target="_blank" alt="resume to download">
+                                <div class="col-xs-6 col-md-2 links-fields bg-download vhalign hvr-sweep-to-bottom">
+                                    <div>
+                                        <div class="vhalign">
+                                            <i class="fa fa-download big-links-fields"></i>
+                                        </div>
+                                        <div class="vhalign">
+                                            <p class=links-fields-font>Download CV</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 footer bg-footer">
+                    <h2>About</h2>
+                    <p>Full Stack Developer. Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking. Coding with
+                        <span class="glyphicon glyphicon-heart-empty heart"></span>.
+                    </p>
+                    <h2>Download my CV</h2>
+                    <div class="downloadpanel">
+                        <p>Need a printable version of my CV? Download it here.</p>
+                        <div class="glyphicon-bgdisc vhalign">
+                            <a href="../assets/images/resume.pdf" target="_blank" alt="download CV">
+                                    <span class="glyphicon glyphicon-save vhalign"></span>
+                                 </a>
+                        </div>
+                    </div>
+    
+                    <h2>My social</h2>
+                    <ul class="socialpanel">
+                        <li class="socialicons"><a href="www.facebook.com" target="_blank" alt="facebook.com" class="sociallinks"><i class="fa fa-facebook vhalign"></i></a></li>
+                        <li class="socialicons"><a href="www.twitter.com" target="_blank" alt="twitter.com" class="sociallinks"><i class="fa fa-twitter vhalign"></i></a></li>
+                        <li class="socialicons"><a href="www.linkedin.com" target="_blank" alt="linkedin.com" class="sociallinks"><i class="fa fa-linkedin vhalign"></i></a></li>
+                        <li class="socialicons"><a href="www.pinterest.com" target="_blank" alt="pinterest.com" class="sociallinks"><i class="fa fa-pinterest vhalign"></i></a></li>
+                        <li class="socialicons"><a href="www.instagram.com" target="_blank" alt="instagram.com" class="sociallinks"><i class="fa fa-instagram vhalign"></i></a></li>
+                        <li class="socialicons"><a href="www.youtube.com" target="_blank" alt="youtube.com" class="sociallinks"><i class="fa fa-youtube vhalign"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

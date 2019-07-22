@@ -264,7 +264,7 @@ form {
 
 .contact-section {
     padding-top: 0px;
-    padding-bottom: 83px;
+    padding-bottom: 92px;
 }
 
 .downloadpanel {
@@ -320,7 +320,7 @@ p {
 
 .personal-info-item {
     font-family: "Exo", sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 36.5px;
 }
 
 .aboutme {
@@ -343,7 +343,7 @@ p {
 .history-items {
     font-family: "Roboto", sans-serif;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 78px;
 }
 
 .timeline-item {
@@ -381,6 +381,11 @@ p {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+
+.mapWrapper {
+    padding-bottom: 384px;
 }
 
 /* ------------------------------------- adaptation properties hoover.css */
