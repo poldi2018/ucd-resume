@@ -18,6 +18,10 @@
     -o-transition: all .5s ease-in-out;
 }
 
+#map {
+    min-height: 360px;
+}
+
 .testframe {
     border: 2px solid red;
 }
@@ -135,6 +139,16 @@
     background-color: #3798DE;
 }
 
+.bg-interests {
+    background-color: #DC6250;
+
+}
+
+.bg-github {
+    background-color: #1E5377;
+
+}
+
 .bg-download {
     background-color: #525152;
 }
@@ -157,6 +171,10 @@
     text-decoration: none;
     color: green;
     font-size: 24px;
+}
+
+.glyphicon-save {
+    
 }
 
 .sociallinks i {
@@ -189,9 +207,9 @@
 
 .glyphicon-bgdisc {
     position: relative;
-    left: 5px;
-    width: 30px;
-    height: 30px;
+    margin-left: 10px;
+    width: 52px;
+    height: 52px;
     background-color: lightgrey;
     border-radius: 50%;
 }
